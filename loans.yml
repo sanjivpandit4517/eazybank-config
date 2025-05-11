@@ -1,0 +1,10 @@
+server:
+  port: 8090
+
+spring:
+  config:
+    import:
+      - "loans-qa.yml"
+      - "loans-prod.yml"
+#  profiles:
+#    active: qa

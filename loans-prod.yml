@@ -1,0 +1,11 @@
+build:
+  version: "3.0.0"
+
+loans:
+  message: "Welcome to the Loans Service Using Prod"
+  contactDetails:
+    name: "John Doe-Developer(Prod)"
+    email: "sanjiv@gmail.com"
+  onCallSupport:
+    - "9932938627"
+    - "7787878787"

@@ -1,0 +1,9 @@
+server:
+  port: 9000
+spring:
+  config:
+    import:
+      - "cards-qa.yml"
+      - "cards-prod.yml"
+#  profiles:
+#    active: qa

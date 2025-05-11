@@ -1,0 +1,23 @@
+server:
+  port: 8080
+
+spring:
+  config:
+    import:
+      - "accounts-qa.yml"
+      - "accounts-prod.yml"
+
+
+
+build:
+  version: "1.0.0"
+
+
+accounts:
+  message: "Welcome to the Accounts Service"
+  contactDetails:
+    name: "John Doe-Developer"
+    email: "sanjiv@gmail.com"
+  onCallSupport:
+    -9932938627
+    -7787878787

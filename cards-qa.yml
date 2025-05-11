@@ -1,0 +1,11 @@
+build:
+  version: "2.0.0"
+
+accounts:
+  message: "Welcome to the Cards Service Using Qa"
+  contactDetails:
+    name: "John Doe-Developer(QA)"
+    email: "sanjiv@gmail.com"
+  onCallSupport:
+    - "9932938627"
+    - "7787878787"
